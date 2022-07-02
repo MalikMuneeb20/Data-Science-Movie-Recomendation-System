@@ -103,7 +103,7 @@ while True:
     name = input("Enter a movie name: ")
 
     os.system("cls")
-    print("Searching...")    
+    print("Precessing...")    
     movies_list, movies_director, movies_dates, movies_rating = DisplayMovie(name)
 
     os.system("cls")
@@ -116,4 +116,4 @@ while True:
     else:
         print("No Movies Found")
 
-    input("Press any key to continue...")
+    input("Press any enter key to continue...")
